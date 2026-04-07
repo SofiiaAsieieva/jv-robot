@@ -22,11 +22,11 @@ public class RobotRoute {
             robot.turnRight();
         }
         if (isX) {
-            while (robot.getX() != targetValue ) {
+            while (robot.getX() != targetValue) {
                 robot.stepForward();
             }
         } else {
-            while (robot.getY() != targetValue ) {
+            while (robot.getY() != targetValue) {
                 robot.stepForward();
             }
         }
